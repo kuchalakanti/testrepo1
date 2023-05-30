@@ -9,3 +9,9 @@ resource "azurerm_resource_group" "rg_name1" {
     location = "eastus"
   
 }
+
+resource "azurerm_resource_group" "rg_name2" {
+    name = "RG-03"
+    location = "eastus"
+  
+}
